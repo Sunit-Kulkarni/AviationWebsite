@@ -30,84 +30,24 @@
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 
+<script type="text/javascript">
+    document.getElementById("emailbutton").onclick = function () {
+        location.href = "https://goo.gl/forms/tPCo3TdFC8R2sMxx2";
+    };
+</script>
+
 <body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <!-- Add your site or application content here -->
+    <!-- Add your site or application content here/ we removed the header here-->
 
-    <!-- header Start
-         ================================================= -->
-
-    <section id="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="block-left">
-                        <nav class="navbar navbar-default" role="navigation">
-                            <div class="container-fluid">
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                    <div class="nav-logo">
-                                        <a href="#">
-                                            <img src="img/logo.png" alt="logo">
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                    <ul class="nav navbar-nav">
-                                        <li class="active">
-                                            <a href="#">Home
-                                                <span class="sr-only">(current)</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Features</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Screenshot</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Gallery</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- /.navbar-collapse -->
-                            </div>
-                            <!-- /.container-fluid -->
-                        </nav>
-                    </div>
-                </div>
-                <!-- .col-md-6 -->
-
-                <div class="col-md-6">
-                    <div class="block-right">
-                        <div class="contact-area">
-                            <ul>
-                                <li>
-                                    <i class="fa fa-phone-square"></i>800-123-456</li>
-                                <li>
-                                    <i class="fa fa-envelope-o"></i>smallapps@gmail.com</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- .col-md-6 close -->
-            </div>
-            <!-- .row close -->
+    <div class="headerVaib">
+        <div style="color: white">
+            Sign Up and Join the Raffle for Oshkosh EAA Airventure 2018
         </div>
-        <!-- .container close -->
-    </section>
-    <!-- #heder close -->
+    </div>
 
     <section id="contant-1">
         <div class="container">
@@ -120,9 +60,9 @@
                                 </h1>
                             </div>
                             <div class="contant-1-text">
-                                <p>With data backups stored on 1076 servers in 6 continents, the probability of you losing your
+                                <h3>With data backups stored on 1076 servers in 6 continents, the probability of you losing your
                                     logs is 0%. Morever, you can access your logs anywhere and anytime.
-                                </p>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -131,7 +71,7 @@
                 <div class="col-md-6">
                     <div class="block-right">
                         <div class="block-right-img">
-                            <img src="img/mobile-phon-1.png" alt="img">
+                            <img src="img/logbookandmac.png" alt="img" style="margin-top: 50px">
                         </div>
                     </div>
                 </div>
@@ -154,9 +94,9 @@
                                 </h1>
                             </div>
                             <div class="contant-1-text">
-                                <p>With the click of a button, check if your aircraft is airworthy. Our software analyzes your
+                                <h3>With the click of a button, check if your aircraft is airworthy. Our software analyzes your
                                     logs to check for regulated compliance automatically.
-                                </p>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -165,7 +105,7 @@
                 <div class="col-md-6">
                     <div class="block-right">
                         <div class="block-right-img">
-                            <img src="img/mobile-phon-1.png" alt="img">
+                            <img src="img/tablet.png" alt="img">
                         </div>
                     </div>
                 </div>
@@ -188,13 +128,13 @@
                                 </h1>
                             </div>
                             <div class="contant-1-text">
-                                <p>Pilots: Your squawks matter! Instantly inform maintainance of any aircraft squawks and protect
+                                <h3>Pilots: Your squawks matter! Instantly inform maintainance of any aircraft squawks and protect
                                     yourself from damage liability. Morever, you can read all squawks before you leave for
                                     the airport.
-                                </p>
-                                <p>Owners: Your airplane makes no money on the ground. Stay on top of maintainance and reduce
+                                </h3>
+                                <h3>Owners: Your airplane makes no money on the ground. Stay on top of maintainance and reduce
                                     downtime.
-                                </p>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -203,7 +143,7 @@
                 <div class="col-md-6">
                     <div class="block-right">
                         <div class="block-right-img">
-                            <img src="img/mobile-phon-1.png" alt="img">
+                            <img src="img/reportsquawk.png" alt="img">
                         </div>
                     </div>
                 </div>
@@ -226,10 +166,10 @@
                                 </h1>
                             </div>
                             <div class="contant-1-text">
-                                <p>Make your logs work for you! Using our special algorithm analyze component lifecycles, engine
+                                <h3>Make your logs work for you! Using our special algorithm analyze component lifecycles, engine
                                     performance data and oil chemical analysis to give you the maintainance schedule you
                                     need for zero downtime.
-                                </p>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -238,7 +178,7 @@
                 <div class="col-md-6">
                     <div class="block-right">
                         <div class="block-right-img">
-                            <img src="img/mobile-phon-1.png" alt="img">
+                            <img src="img/compression.png" alt="img">
                         </div>
                     </div>
                 </div>
@@ -258,19 +198,17 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="block">
+                        <h1 style="color:#5dca88">Give Us Some Feedback!</h1>
                         <div class="submit-contant">
-                            <div class="submit-header">
-                                <i class="fa fa-envelope-o"></i>
-                                <h3>Subscribe our Newsletter</h3>
-                            </div>
-                            <div class="submit-area">
-                                <div class="submit-bottom">
-                                    <form action="">
-                                        <input type="text" placeholder="your email address">
-                                        <input type="submit" value="submit">
-                                    </form>
+                            <form method="POST" action="https://formspree.io/plane.fax@pm.me">
+                                <div class="form-group">
+                                    <textarea name="message" placeholder="Place your feedback here" class="form-control"></textarea>
                                 </div>
-                            </div>
+                                <div class="form-group">
+                                    <!-- <button type="submit" id="emailbutton" class="btn btn-primary">Send</button> -->
+                                    <input type="submit" value="submit" id="emailbutton">
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -281,13 +219,6 @@
         <!-- .container close -->
     </section>
     <!-- #submit close -->
-
-    <section>
-        <form method="POST" action="https://formspree.io/plane.fax@pm.me">
-            <textarea name="message" placeholder="Your message"></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
