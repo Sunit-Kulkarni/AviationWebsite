@@ -878,6 +878,18 @@ input[type='submit'] {
   border-radius: 40px;
 }
 
+.rafflebutton {
+  border: none;
+  padding: 21px 55px;
+  background: #5dca88;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Proxima Nova Regular';
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
 /*=========================
 	 Submit CLOSE
 ===========================*/
