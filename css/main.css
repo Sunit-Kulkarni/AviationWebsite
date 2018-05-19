@@ -341,7 +341,7 @@ h6 {
 } */
 
 .headerVaib {
-  position: fixed;
+  position: relative;
   top: 0;
   text-align: center;
   background-color: black;
