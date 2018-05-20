@@ -880,14 +880,14 @@ input[type='submit'] {
 
 .rafflebutton {
   border: none;
-  padding: 21px 55px;
+  padding: 18px 50px;
   background: #5dca88;
   color: #fff;
   font-size: 20px;
   font-family: 'Proxima Nova Regular';
   font-weight: 700;
   text-transform: uppercase;
-  border-radius: 40px;
+  border-radius: 35px;
 }
 
 /*=========================
